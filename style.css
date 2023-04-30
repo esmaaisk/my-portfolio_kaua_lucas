@@ -205,7 +205,9 @@ flex-direction: column;
         margin-right: 0cm;
         color:white;
     }
-
+span{
+    display:none
+}
 
 
 }
@@ -286,5 +288,4 @@ flex-direction: column;
         overflow-x: hidden;
     }
 }
-
 
