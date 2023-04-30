@@ -5,8 +5,7 @@ body{
 margin:auto;
 font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: justify;
-background-image: linear-gradient( to right,#3e445f 60%,#003052);
-color:rgb(0, 0, 0);
+background:#3e445f; 
 }
 nav{
     background: #757ea8c5;
@@ -168,9 +167,7 @@ flex-direction: column;
     width:350px;
     text-align: center;
 }
-span{
-    font-size: 0;
-}
+
 @media(max-width:1166px){
     main{
         width: 800px;
@@ -220,22 +217,23 @@ span{
         width: 350px;
     }
     #name, #desc{
-        margin-left:8cm;
+        margin-left:0;
      }
     #name{
         font-size:30pt;
         margin-top:2.5cm;
-        margin-left:9cm
+        
         
     }
     #desc{
-        padding-right: 2cm;
+        padding-right: 0cm;
         width: 300px;
         color:white;
         font-size: 9pt;
         text-align:   center;
-        
+       
     }
+   
     #eu{
     height:0px;
     }
@@ -282,11 +280,11 @@ span{
         margin-left: 7.5px
     }
     #link-G_n{
-       position:relative;
-       left:5cm;
+      display:None;
     }
-    span{
-        font-size: 9pt;
+    body{
+        overflow-x: hidden;
     }
 }
+
 
