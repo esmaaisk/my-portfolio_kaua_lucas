@@ -99,6 +99,9 @@ main{
     border-radius:200px 0px 200px 0px;
 
 }
+span{
+    font-size:0;
+}
 
 /* ------------------- */
 /* medio */
@@ -205,9 +208,7 @@ flex-direction: column;
         margin-right: 0cm;
         color:white;
     }
-span{
-    font-size:0pt;
-}
+
 
 
 }
@@ -291,4 +292,3 @@ span{
         font-size:9pt
     }
 }
-
