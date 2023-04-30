@@ -287,6 +287,8 @@ span{
     body{
         overflow-x: hidden;
     }
+    span{
+        font-size:9pt
+    }
 }
-
 
