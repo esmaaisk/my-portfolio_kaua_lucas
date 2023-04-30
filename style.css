@@ -208,7 +208,9 @@ flex-direction: column;
         margin-right: 0cm;
         color:white;
     }
-
+span{
+    font-size:0px;
+}
 
 
 }
