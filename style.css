@@ -206,7 +206,7 @@ flex-direction: column;
         color:white;
     }
 span{
-    display:none
+    font-size:0pt;
 }
 
 
@@ -288,4 +288,5 @@ span{
         overflow-x: hidden;
     }
 }
+
 
