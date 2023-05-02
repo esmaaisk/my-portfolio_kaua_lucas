@@ -7,9 +7,11 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: justify;
 background:#3e445f; 
 }
+
 a{
-    color:#9cadff
+    color:#9cadff;
 }
+
 nav{
     background: #757ea8c5;
     width: 1200px;
@@ -77,6 +79,7 @@ main{
 #name{
     font-size:40pt;
     margin-top:2.5cm;
+    
     
 }
 #desc{
@@ -173,6 +176,9 @@ flex-direction: column;
     width:350px;
     text-align: center;
 }
+#aviso{
+   margin-left:2.3cm
+}
 
 @media(max-width:1166px){
     main{
@@ -241,9 +247,11 @@ span{
         text-align:   center;
        
     }
-   
+   #eu-1{
+       display:none
+   }
     #eu{
-    height:0px;
+    display:none;
     }
     #skils{
         display: flex;
@@ -259,8 +267,7 @@ span{
         color:white;
     }
     #compt{
-        height:0px; 
-        
+        display:none
     }
     #me{
         padding-left: 0px;
@@ -297,3 +304,37 @@ span{
         font-size:9pt
     }
 }
+@media(max-width: 600px) {
+    nav {
+      width: 87%;
+      border-radius: 0;
+      
+    }
+    .text-menu {
+      font-size: 13pt;
+    }
+  }
+  @media(max-width: 492px) {
+    main{
+        background:  #67709E;
+        width:110%;
+        
+        position: relative;
+        right:0.8cm;
+        border-radius:0;
+        
+    }
+    #vidd__{
+        margin-right:30px
+    }
+    #text_proja{
+        width:300px;
+        margin-left:1cm
+    }
+    nav {
+        width: 100%;
+        border-radius: 0;
+        
+      }
+     
+  }
