@@ -7,7 +7,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: justify;
 background:#3e445f; 
 }
-
+#void{
+    display:none;
+}
 a{
     color:#9cadff;
 }
@@ -366,3 +368,20 @@ span{
         
     }
   }
+  @media(max-width:332px){
+      main{
+    display: none;
+}
+#void{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:2cm;
+    font-size:12pt;
+    color:white;
+    text-align: center;
+  }
+  nav{
+      display:none;
+  }
+}
