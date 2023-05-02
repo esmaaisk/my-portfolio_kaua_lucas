@@ -111,10 +111,6 @@ span{
 
 /* ------------------- */
 /* medio */
-#media{
-    
-    
-}
 h3{
     text-align: center;
     font-size:27pt;
@@ -336,5 +332,19 @@ span{
         border-radius: 0;
         
       }
-     
+      #skils{
+        padding-left: 2cm;
+        padding-right: 2cm;
+      }
+      
+  }
+  @media(max-width:314px){
+    main{
+        background:  #67709E;
+        width:114%;
+        position: relative;
+        right:0.8cm;
+        border-radius:0;
+        
+    }
   }
