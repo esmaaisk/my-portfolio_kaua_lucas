@@ -349,7 +349,8 @@ span{
   @media(max-width:364px){
     #pog{
         position: relative;
-        left:0.2cm
+        left:0.5cm;
+        width:309px
     }
     #Yt_{
         margin-left:0.5cm
