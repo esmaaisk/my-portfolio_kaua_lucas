@@ -299,6 +299,14 @@ span{
     span{
         font-size:9pt
     }
+    .Yt{
+        width:330px;
+        padding:2px;
+        margin-left:0.2cm
+    }
+    #Yt_{
+        margin-left:0.4cm
+    }
 }
 @media(max-width: 600px) {
     nav {
