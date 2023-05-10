@@ -5,7 +5,8 @@ body{
 margin:auto;
 font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: justify;
-background:#3e445f; 
+background:#3e445f;
+
 }
 #void{
     display:none;
@@ -36,6 +37,7 @@ nav{
         font-size: 14pt;
         
     }
+
 }
 @media(max-width:788px){
     nav{
@@ -57,9 +59,10 @@ nav{
 }
 
 main{
+
     background:  #67709E;
     margin:auto;
-    width: 1100px;
+    width: 80%;
     position: relative;
     top:2cm;
     border-radius: 310px 0px 0px 0px;
@@ -138,8 +141,9 @@ flex-direction: column;
 
 }
 #skils{
-    display:flex;
-    justify-content: space-between;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .linguagens{
@@ -180,13 +184,13 @@ flex-direction: column;
 
 @media(max-width:1166px){
     main{
-        width: 800px;
+        width: 98%;
     }
     #name, #desc{
-        margin-left:4cm;
+        margin-left:2cm;
      }
     #name{
-        font-size:30pt;
+        font-size:2.7em;
         margin-top:2.5cm;
         
     }
@@ -226,7 +230,12 @@ span{
         font-size: 6pt;
     }
     main{
-        width: 350px;
+        width: 80%;
+        background:  #67709E;
+        margin:auto;
+        position: relative;
+        top:2cm;
+        border-radius: 50px 50px 0px 0px;
     }
     #name, #desc{
         margin-left:0;
@@ -252,7 +261,7 @@ span{
     display:none;
     }
     #skils{
-        display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
@@ -275,14 +284,6 @@ span{
     }
     h3{
         font-size:18pt;
-    }
-    main{
-        background:  #67709E;
-        margin:auto;
-     
-        position: relative;
-        top:2cm;
-        border-radius: 50px 50px 0px 0px;
     }
     .vidd{
         height:140px;
@@ -311,6 +312,7 @@ span{
     }
 }
 @media(max-width: 600px) {
+
     nav {
       width: 87%;
       border-radius: 0;
